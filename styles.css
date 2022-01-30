@@ -1,0 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+:root {
+  font-family: 'Harry Potter', sans-serif;
+}
+
+.Gryfindor {
+  /* colors of class */
+  
+  --primary-color: #AE0001;
+  --secondary-color: #EEBA30;
+  --tertiary-color: #C0C0C0;
+  
+  /*properties of class*/
+  background: var(--secondary-color);
+  border: solid 5px var(--primary-color);
+  border-radius: 20px;
+  margin: 30px; 
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  padding-top: 15px;
+}
