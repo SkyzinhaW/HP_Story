@@ -8,7 +8,7 @@
   /* colors of class */
   
   --primary-color: #AE0001;
-  --secondary-color: #EEBA30;
+  --secondary-color:#C1C1C1;
   --tertiary-color: #C0C0C0;
   
   /*properties of class*/
@@ -24,9 +24,16 @@
 
 .Slytherin {
   /* colors of class */
-  --primary-color: #1A472A;
-  --secondary-color: #2A623D;
-  --tertiary-color: #5D5D5D;
+  --primary-color: #2A623D;
+  --secondary-color: #C1C1C1;
+  --tertiary-color: #1A472A;
+
+  
+  /*properties of class*/
+  background: var(--secondary-color);
+  border: solid 5px var(--primary-color);
+  border-radius: 20px;
+  margin: 30px; 
   width: 85px;
   height: 85px;
   text-align: center;
@@ -35,12 +42,17 @@
 
 .Ravenclaw {
  /* colors of class */
-  --primary-color: #0E1A40;
-  --secondary-color: #222F5B;
-  --tertiary-color: #9A5B2D;
+  --primary-color: #222F5B;
+  --secondary-color:#C1C1C1;
+  --tertiary-color: #0E1A40;
+ 
+  /*properties of class*/
+  background: var(--secondary-color);
+  border: solid 5px var(--primary-color);
+  border-radius: 20px;
+  margin: 30px; 
   width: 85px;
   height: 85px;
   text-align: center;
   padding-top: 15px;
-}
 }
