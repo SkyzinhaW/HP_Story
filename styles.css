@@ -21,3 +21,26 @@
   text-align: center;
   padding-top: 15px;
 }
+
+.Slytherin {
+  /* colors of class */
+  --primary-color: #1A472A;
+  --secondary-color: #2A623D;
+  --tertiary-color: #5D5D5D;
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.Ravenclaw {
+ /* colors of class */
+  --primary-color: #0E1A40;
+  --secondary-color: #222F5B;
+  --tertiary-color: #9A5B2D;
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  padding-top: 15px;
+}
+}
