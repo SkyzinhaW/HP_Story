@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/SkyzinhaW/HP_Story#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }

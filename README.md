@@ -11,3 +11,10 @@ Criar o arquivo package
 
 Gerencia as requisições rotas e URL's, entre outras funcionalidades
 ### npm install express
+
+Instalar o modulo para reiniciar o servidor sempre que houver alteração no código fonte, g significa globalmente
+### npm install -g nodemon
+### npm install --save-dev nodemon
+
+Rodar o projeto com nodemon
+### nodemon app.js
