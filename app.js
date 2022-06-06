@@ -24,6 +24,23 @@ app.get('/about', (req, res) => {
 });
 
 
+app.get('/griffindor', (req, res) => {
+  res.render('griffindor', { text: 'This is Grifnoriaaa' })
+});
+
+app.get('/slytherin', (req, res) => {
+  res.render('slytherin', { text: 'This is Sonserinaaa' })
+});
+
+app.get('/hufflepuff', (req, res) => {
+  res.render('hufflepuff', { text: 'This is LufaLufaaa' })
+});
+
+app.get('/ravenclaw', (req, res) => {
+  res.render('ravenclaw', { text: 'This is Corvitalll' })
+});
+
+
 app.listen(port, () => {
   console.log("Servidor iniciado na porta 8080: http://localhost:8080");
 });
