@@ -21,3 +21,6 @@ Instalar a engine de visualizacao, com ele conseguimos trasportar dados do back-
 
 Rodar o projeto com nodemon
 ### nodemon app.js
+
+Instalar o drivedo banco de dados
+### npm install --save mysql2
